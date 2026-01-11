@@ -1,0 +1,12 @@
+name: node-dind
+services:
+    node-dind:
+        restart: unless-stopped
+        volumes:
+            - ./:/app
+            - /var/run/docker.sock:/var/run/docker.sock
+            - /home/bisb/dev/docker-dind-test/compose.yaml:/app/stacks/docker-dind-test/compose.yaml:ro
+        command: |
+            /bin/sh -c 'npm install -g nodemon && nodemon index.js'
+        ports:
+            - "3000:3000"

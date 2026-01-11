@@ -1,0 +1,12 @@
+{
+  "stack1": {
+    "token": "token1",
+    "containers": ["container1", "container2"],
+    "stackPath": ["/app/stacks/stack1/compose.yaml", "/app/stacks/stack1/compose.override.yaml"]
+  },
+  "stack2": {
+    "token": "token2",
+    "containers": ["container3"],
+    "stackPath": "/app/stacks/stack2/compose.yaml"
+  }
+}
