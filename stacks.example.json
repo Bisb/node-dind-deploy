@@ -7,6 +7,10 @@
   "stack2": {
     "token": "token2",
     "containers": ["container3"],
-    "stackPath": "/app/stacks/stack2/compose.yaml"
+    "stackPath": "/app/stacks/stack2/compose.yaml",
+    "commands": [
+      "docker compose -f /app/stacks/stack2/compose.yaml pull",
+      "docker compose -f /app/stacks/stack2/compose.yaml up -d"
+    ]
   }
 }
