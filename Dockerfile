@@ -1,4 +1,4 @@
-FROM node:18-alpine
+FROM node:22-alpine
 
 # Install Docker CLI and Docker-in-Docker
 RUN apk add --no-cache \
