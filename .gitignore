@@ -2,3 +2,4 @@ node_modules
 .idea
 stacks
 stacks.json
+compose.override.yaml
