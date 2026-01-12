@@ -1,13 +1,18 @@
 {
   "name": "docker-dind",
   "version": "1.0.0",
-  "description": "",
+  "description": "Docker DinD Deployer with Express.js - for CI/CD pipelines",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "node",
+    "docker",
+    "dind",
+    "docker-in-docker"
+  ],
+  "author": "Guillaume Adam",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
