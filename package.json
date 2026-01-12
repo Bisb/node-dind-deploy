@@ -1,5 +1,5 @@
 {
-  "name": "docker-dind",
+  "name": "node-dind-deploy",
   "version": "1.0.0",
   "description": "Docker DinD Deployer with Express.js - for CI/CD pipelines",
   "main": "index.js",
