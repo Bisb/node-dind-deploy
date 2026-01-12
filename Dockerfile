@@ -10,7 +10,7 @@ WORKDIR /app
 
 # Copy package files
 COPY package*.json ./
-RUN npm install
+RUN npm clean-install
 
 ENV PORT=3000
 
